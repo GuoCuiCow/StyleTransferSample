@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Style Transfer Sample.iml" filepath="$PROJECT_DIR$/Style Transfer Sample.iml" group="Style Transfer Sample" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="Style Transfer Sample/app" />
+    </modules>
+  </component>
+</project>
