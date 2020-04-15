@@ -20,9 +20,8 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import android.content.Context
-import kotlinx.coroutines.CoroutineScope
+import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.ExecutorCoroutineDispatcher
-import kotlinx.coroutines.Job
 import kotlinx.coroutines.launch
 
 class MLExecutionViewModel : ViewModel() {
@@ -32,8 +31,6 @@ class MLExecutionViewModel : ViewModel() {
   val styledBitmap: LiveData<ModelExecutionResult>
     get() = _styledBitmap
 
-  private val viewModelJob = Job()
-  private val viewModelScope = CoroutineScope(viewModelJob)
 
   fun onApplyStyle(
     context: Context,

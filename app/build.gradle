@@ -23,10 +23,10 @@ apply plugin: 'de.undercouch.download'
 android {
     signingConfigs {
         release {
-            storeFile file('/Users/lgusm/projects/keys/release')
-            storePassword 'teste123'
-            keyAlias = 'key0'
-            keyPassword '123456'
+            storeFile file('/Users/cuiguo/StudioProjects/examples-master/lite/examples/style_transfer/android/Untitled')
+            storePassword '778899'
+            keyAlias = 'test'
+            keyPassword '778899'
         }
     }
     compileSdkVersion 29
